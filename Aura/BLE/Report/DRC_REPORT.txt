@@ -1,0 +1,295 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head><title>DRC Error Report</title></head>
+<body>
+<b><u>Design Name</u>&nbsp;E:/sreeni/SHANKER/wirelesspowerusense_board_18may15_1700/WIRELESS_BOARD_18may15_1100/WIRELESS_BOARD_18may15_1100/WIRELESS_BOARD_19may15_1310.brd</b><br>
+<b><u>Date</u>&nbsp;Tue May 19 13:11:56 2015</b><br>
+<BODY>
+
+<table align=center border=1><caption><b><u>DRC Error Count Summary</u></b></caption>
+<tr>
+<td><b>DRC Error Type</b></td>
+<td><b>DRC Error Count</b></td>
+</tr>
+<tr>
+<td nowrap=true>Package to Package</td>
+<td nowrap=true align=right>1</td>
+</tr>
+<tr>
+<td nowrap=true>Route Keepin</td>
+<td nowrap=true align=right>2</td>
+</tr>
+<tr>
+<td nowrap=true>Route Keepout</td>
+<td nowrap=true align=right>5</td>
+</tr>
+<tr>
+<td nowrap=true>Etch to Pad</td>
+<td nowrap=true align=right>3</td>
+</tr>
+<tr>
+<td nowrap=true>Etch to Etch</td>
+<td nowrap=true align=right>2</td>
+</tr>
+<tr>
+<td nowrap=true>Pad to Pad (Same Net)</td>
+<td nowrap=true align=right>2</td>
+</tr>
+<tr>
+<td nowrap=true>Etch to Pad (Same Net)</td>
+<td nowrap=true align=right>2</td>
+</tr>
+<tr>
+<td nowrap=true>Manufacturing Constraint</td>
+<td nowrap=true align=right>6</td>
+</tr>
+<tr>
+<td nowrap=true>Total DRC Errors</td>
+<td nowrap=true align=right>23</td>
+</tr>
+</table>
+<BR>
+<table align=center border=1><caption><b><u>Detailed DRC Errors</u></b></caption>
+<tr>
+<td><b>Constraint Name</b></td>
+<td><b>DRC Marker Location</b></td>
+<td><b>Required Value</b></td>
+<td><b>Actual Value</b></td>
+<td><b>Constraint Source</b></td>
+<td><b>Constraint Source Type</b></td>
+<td><b>Element 1</b></td>
+<td><b>Element 2</b></td>
+</tr>
+<tr>
+<td nowrap=true>Package to Package Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 907.3 242.4 ">(907.3 242.4)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>19.7 MIL</td>
+<td nowrap=true>NONE</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Filled Rectangle "U2, Package Geometry/Place_Bound_Top"</td>
+<td nowrap=true>Shape "D1, Package Geometry/Place_Bound_Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepin Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 20.0 639.2 ">(20.0 639.2)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Vertical Line Segment "Not On A Net, Etch/Top"</td>
+<td nowrap=true>Rectangle "Route Keepin/All"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepin Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 20.0 354.1 ">(20.0 354.1)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Odd-angle Line Segment "Not On A Net, Etch/Top"</td>
+<td nowrap=true>Rectangle "Route Keepin/All"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepout Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 305.5 254.3 ">(305.5 254.3)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+<td nowrap=true>Shape "Route Keepout/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepout Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 356.4 282.9 ">(356.4 282.9)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Vertical Line Segment "Ant, Etch/Top"</td>
+<td nowrap=true>Shape "Route Keepout/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepout Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 44.8 639.2 ">(44.8 639.2)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Vertical Line Segment "Not On A Net, Etch/Top"</td>
+<td nowrap=true>Shape "Route Keepout/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepout Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 44.8 354.1 ">(44.8 354.1)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Odd-angle Line Segment "Not On A Net, Etch/Top"</td>
+<td nowrap=true>Shape "Route Keepout/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Route Keepout Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 341.4 239.0 ">(341.4 239.0)</a></td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Horizontal Line Segment "Ant, Etch/Top"</td>
+<td nowrap=true>Shape "Route Keepout/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to SMD Pin Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 345.0 254.3 ">(345.0 254.3)</a></td>
+<td nowrap=true>5.9 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Pin "C11.1"</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to SMD Pin Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 345.0 254.3 ">(345.0 254.3)</a></td>
+<td nowrap=true>5.9 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Pin "L3.2"</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to SMD Pin Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 326.4 254.3 ">(326.4 254.3)</a></td>
+<td nowrap=true>5.9 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Pin "C10.1"</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Line Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 345.0 254.3 ">(345.0 254.3)</a></td>
+<td nowrap=true>5.9 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Vertical Line Segment "Ant, Etch/Top"</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to Line Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 335.7 254.3 ">(335.7 254.3)</a></td>
+<td nowrap=true>5.9 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>NET SPACING CONSTRAINTS</td>
+<td nowrap=true>Horizontal Line Segment "Ant, Etch/Top"</td>
+<td nowrap=true>Horizontal Line Segment "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>SMD Pin to Thru Via Same Net Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 892.4 252.2 ">(892.4 252.2)</a></td>
+<td nowrap=true>5 MIL</td>
+<td nowrap=true>OVERLAP</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>SAME NET CONSTRAINTS</td>
+<td nowrap=true>Pin "D1.K"</td>
+<td nowrap=true>Via "N69197331, Via, (884.0 247.1)"</td>
+</tr>
+<tr>
+<td nowrap=true>SMD Pin to Thru Via Same Net Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 847.4 252.2 ">(847.4 252.2)</a></td>
+<td nowrap=true>5 MIL</td>
+<td nowrap=true>OVERLAP</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>SAME NET CONSTRAINTS</td>
+<td nowrap=true>Pin "D1.A"</td>
+<td nowrap=true>Via "N6920326, Via, (839.0 247.1)"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to SMD Pin Same Net Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 952.0 407.0 ">(952.0 407.0)</a></td>
+<td nowrap=true>5 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>SAME NET CONSTRAINTS</td>
+<td nowrap=true>Pin "U2.1"</td>
+<td nowrap=true>Odd-angle Line Segment "N6850940, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Line to SMD Pin Same Net Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 952.0 285.7 ">(952.0 285.7)</a></td>
+<td nowrap=true>5 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>DEFAULT</td>
+<td nowrap=true>SAME NET CONSTRAINTS</td>
+<td nowrap=true>Pin "U2.1"</td>
+<td nowrap=true>Vertical Line Segment "N6850940, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 952.0 285.7 ">(952.0 285.7)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "U2.1"</td>
+<td nowrap=true>Connect Line "N6850940, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 952.0 407.0 ">(952.0 407.0)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "U2.1"</td>
+<td nowrap=true>Connect Line "N6850940, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 559.0 297.1 ">(559.0 297.1)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0.8 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "C15.2"</td>
+<td nowrap=true>Connect Line "Gnd_Signal, Etch/Bottom"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 344.8 254.3 ">(344.8 254.3)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "C11.1"</td>
+<td nowrap=true>Connect Line "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 344.8 254.3 ">(344.8 254.3)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "L3.2"</td>
+<td nowrap=true>Connect Line "Not On A Net, Etch/Top"</td>
+</tr>
+<tr>
+<td nowrap=true>Soldermask to Pad and Cline Spacing</td>
+<td nowrap=true><a href="xprobe:xy: 326.4 254.3 ">(326.4 254.3)</a></td>
+<td nowrap=true>3 MIL</td>
+<td nowrap=true>0 MIL</td>
+<td nowrap=true>SOLDERMASK_CLINE_SPACING</td>
+<td nowrap=true>DESIGN</td>
+<td nowrap=true>Pin "C10.1"</td>
+<td nowrap=true>Connect Line "Not On A Net, Etch/Top"</td>
+</tr>
+</table>
+</BODY>
+</HTML>

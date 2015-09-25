@@ -1,0 +1,87 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : #Taaaaap03136.tmp                             )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Mon Aug 03 23:31:47 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.000000	y:0.000000
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	NO
+ SUPPRESS-TRAIL-ZEROES	YES
+ SUPPRESS-EQUAL		YES
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		YES
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	NO
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-358): Design precision is the same as that of the drill output file data.
+ WARNING(SPMHMF-359): Data rounding errors may still be possible.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+          10.00  P        T01            3.000000     3.000000
+          16.00  P        T02            3.000000     3.000000
+          23.62  P        T03            3.000000     3.000000
+          25.59  P        T04            3.000000     3.000000
+          29.84  P        T05            3.000000     3.000000
+          33.62  P        T06            0.000000     0.000000
+          37.95  P        T07            3.000000     3.000000
+          40.00  P        T08            3.000000     3.000000
+          41.50  P        T09            3.000000     3.000000
+          50.00  P        T10            3.000000     3.000000
+         125.00  P        T11            3.000000     3.000000
+         165.35  P        T12            3.000000     3.000000
+
+
+ Drill files being output to directory 'D:/DESIGN/SANKAR/POWER_BOARD_27JULY15_1500/WIP/BOARD/0308_2330' ...
+
+
+
+     'POWER_BOARD_03AUG15_2330-1-4.drl' created for holes connecting TOP and BOTTOM ; Plating = PLATED
+     -------------------------------------------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.  10.0000    3.0000/  3.0000      PLATED         23
+     T02    2.  16.0000    3.0000/  3.0000      PLATED         16
+     T03    3.  23.6200    3.0000/  3.0000      PLATED          2
+     T04    4.  25.5900    3.0000/  3.0000      PLATED         12
+     T05    5.  29.8400    3.0000/  3.0000      PLATED          4
+     T06    6.  33.6200    0.0000/  0.0000      PLATED         14
+     T07    7.  37.9500    3.0000/  3.0000      PLATED          2
+     T08    8.  40.0000    3.0000/  3.0000      PLATED         10
+     T09    9.  41.5000    3.0000/  3.0000      PLATED          2
+     T10   10.  50.0000    3.0000/  3.0000      PLATED          2
+     T11   11. 125.0000    3.0000/  3.0000      PLATED          3
+     T12   12. 165.3500    3.0000/  3.0000      PLATED          3
+
+     ---- Total holes:                                         93
+
+     ---- Total head travel:              3.80 feet (1.16 meters)
+
